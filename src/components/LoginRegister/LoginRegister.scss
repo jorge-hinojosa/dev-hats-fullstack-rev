@@ -1,0 +1,36 @@
+@import '../../App.scss';
+
+.login-cont {
+  width: 90vw;
+  min-height: 100vw;
+  margin-top: 60px;
+
+  font-family: $content-font;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+
+    input {
+      background-color: $brand-color-dark;
+      color: $white-color;
+      border: none;
+      border-radius: 5px;
+      padding: 5px;
+    }
+    input::placeholder {
+      color: $white-color;
+    }
+    button {
+      border: none;
+      border-radius: 5px;
+      height: 20px;
+      background-color: $accent-color;
+      color: $white-color;
+    }
+  }
+
+}

@@ -1,0 +1,41 @@
+@import '../../App.scss';
+
+.productlist-cont {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+}
+
+.product {
+  font-family: $content-font;
+  margin-bottom: 25px; 
+
+  img {
+    width: 250px;
+    border: 2px $accent-color solid;
+    border-radius: 5px;
+  }
+  h1 {
+    font-size: 1em;
+  }
+
+  span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 25px;
+
+    button {
+      border: none;
+      background: $brand-color-dark;
+      color: $white-color;
+      border-radius: 5px;
+      height: 20px;
+    }
+  }
+}

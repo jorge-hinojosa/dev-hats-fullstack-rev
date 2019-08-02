@@ -1,0 +1,63 @@
+@import '../../App.scss';
+
+.header-cont {
+  width: 100vw;
+  height: 50px;
+  background-color: $brand-color;
+
+  position: fixed;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    width: 90vw;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    color: $white-color;
+
+    h1 {
+      font-size: 1.5em;
+      font-family: $header-font;
+      font-style: italic;
+    }
+  }
+
+  nav {
+    width: 150px;
+    height: 250px;
+    background-color: $dark-color;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 5px;
+
+    div {
+      margin-top: 60px;
+      text-decoration: none;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      color: $white-color;
+      font-family: $content-font;
+
+      .menu-links {
+        text-decoration:none;
+        color: $white-color;
+      }
+    }
+  }
+}

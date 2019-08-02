@@ -1,0 +1,17 @@
+$dark-color: #3F3634;
+$brand-color: #68A694;
+$brand-color-dark: #347367;
+$white-color: rgb(253, 250, 253);
+$accent-color:#FF7871;
+
+$header-font: 'Space-mono', monospace;
+$content-font: 'Karla', sans-serif;
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
